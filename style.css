@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker|Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.text-centered {
+  text-align: center;
+}
+/*This formats the entire Body with space on both sides of the page*/
+body {
+  margin: 50px 25px;
+  padding: 50px 250px;
+  background-color: #222222;
+}
+
+/*Formats the name header*/
+h1 {
+color: #FFFFFF;
+font-size: 65px;
+font-family: 'Reggae One', cursive;
+text-transform: uppercase;
+margin: -30px 0px;
+}
+/*Formats the subheaders*/
+h2 {
+  font-family: 'Playfair Display', cursive;
+  color: #FFFFFF;
+  font-size: 26px;
+  font: bold;
+  font-weight: 300;
+  margin: 32px 0px;
+}
+h3 {
+  font-family: 'Raleway', cursive;
+  color: #BBCDE5;
+  font-size: 42px;
+}
+/*Formats the paragraphs*/
+p {
+  font-family: 'Raleway', cursive;
+  color: #1C5D99;
+  font-size: 32px;
+  font-weight:400px;
+  text-align: center;
+}
+/*Formats the lists*/
+ul{
+  font-family: 'Raleway', cursive;
+  color: #1C5D99;
+  font-size: 32px;
+  font-weight:400px;
+  padding: 0px 350px;
+}
+/*Adds the background color of the header*/
+.light-background {
+  background-color: #639FAB;
+  color: #1E1E1E;
+}
+article {
+  font-family: 'Raleway', cursive;
+  color: #1C5D99;
+  font-size: 32px;
+  font-weight:400px;
+  text-align: center;
+  padding: 0px 500px;
+
+}
+
+/*Adds the image for the break*/
+hr {
+	height: 24px;
+	background-image: url("images/pacman.gif");
+}
+
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
