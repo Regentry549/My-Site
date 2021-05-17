@@ -37,7 +37,7 @@ h3 {
   color: black;
   font-size: 42px;
 }
-/*Formats the paragraphs*/
+/* -------  General Styles ------- */
 p {
   font-family: 'Raleway', cursive;
   color: black;
@@ -59,7 +59,7 @@ ul{
   background-color: #639FAB;
   color: #1E1E1E;
 }
-h4 {
+ol {
   font-family: 'Raleway', cursive;
   color: black;
   font-size: 32px;
@@ -68,8 +68,20 @@ h4 {
   padding: 0px 250px;
 
 }
+ul {
+  font-family: 'Raleway', cursive;
+  color: black;
+  font-size: 32px;
+  font-weight:400px;
+  text-align: left;
+  padding: 0px 250px;
 
-/*Adds the image for the break*/
+}
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+/* -------  Elements ------- */
 hr {
 	height: 24px;
 	background-image: url("images/pacman.gif");
@@ -87,3 +99,8 @@ footer {
   padding: 0px;
 
 }
+/* -------  Modifies the border ------- */
+img, iframe { 	
+  border-radius: 8px;
+  border: 1px solid black;
+} 
